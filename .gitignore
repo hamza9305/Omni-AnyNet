@@ -1,0 +1,12 @@
+*.pt
+*.tar
+*/__pycache__/
+*train_results*
+.vscode/
+__pycache__/
+inference_results*
+masks_and_luts
+models/spn_t1/build/
+models/spn_t1/gate_lib/
+time_*.log
+time_*.sh

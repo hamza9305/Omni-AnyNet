@@ -1,0 +1,6 @@
+[submodule "Omni_lut"]
+	path = Omni_lut
+	url = git@github.com:hamza9305/OmniGlasses.git
+[submodule "map_processing"]
+	path = map_processing
+	url = git@github.com:jseuffert90/map_processing.git
