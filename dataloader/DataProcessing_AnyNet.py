@@ -54,7 +54,7 @@ def disparity_loader(path):
 class myImageFloder(data.Dataset):
     def __init__(self, left, right, left_disparity, training, loader=default_loader, dploader=disparity_loader, with_gt=True):
 
-        assert (training and not with_gt) or not training # training without GT is non-sense for supervised ML
+        assert (training and with_gt) or not training # training without GT is non-sense for supervised ML
         self.left = left
         self.right = right
         self.disp_L = left_disparity
