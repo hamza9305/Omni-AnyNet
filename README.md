@@ -69,27 +69,35 @@ Most important environment variables (see each Bash script for default values):
 
 Attention: The baseline is hardcoded in `evaluate.sh`
 
+## Scientific article
+The article can be found [here](https://link.springer.com/10.1007/s00138-024-01534-2).
+
 ## References
 
-[1] J. B. Seuffert, A. C. P. Grassi, H. Ahmed, R. Seidel, and G. Hirtz, “OmniGlasses: An Optical Aid for Stereo Vision CNNs to Enable Omnidirectional Image Processing,” In Review, preprint, Apr. 2023. doi: 10.21203/rs.3.rs-2776786/v1.  
+[1] J. B. Seuffert, A. C. Perez Grassi, H. Ahmed, R. Seidel, and G. Hirtz, “OmniGlasses: an optical aid for stereo vision CNNs to enable omnidirectional image processing,” Machine Vision and Applications, vol. 35, no. 3, pp. 58–72, Apr. 2024, doi: [10.1007/s00138-024-01534-2](https://doi.org/10.1007/s00138-024-01534-2).  
 
-[2] Y. Wang et al., “Anytime Stereo Image Depth Estimation on Mobile Devices,” in 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada: IEEE, 2019, pp. 5893–5900. doi: 10.1109/ICRA.2019.8794003.
+[2] Y. Wang et al., “Anytime Stereo Image Depth Estimation on Mobile Devices,” in 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada: IEEE, 2019, pp. 5893–5900. doi: [10.1109/ICRA.2019.8794003](https://doi.org/10.1109/ICRA.2019.8794003).
 
-[3] J. B. Seuffert, A. C. Perez Grassi, T. Scheck, and G. Hirtz, “A Study on the Influence of Omnidirectional Distortion on CNN-based Stereo Vision,” in Proceedings of the 16th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications, VISIGRAPP 2021, Volume 5: VISAPP, Online Conference: SciTePress, Feb. 2021, pp. 809–816. doi: 10.5220/0010324808090816.
+[3] J. B. Seuffert, A. C. Perez Grassi, T. Scheck, and G. Hirtz, “A Study on the Influence of Omnidirectional Distortion on CNN-based Stereo Vision,” in Proceedings of the 16th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications, VISIGRAPP 2021, Volume 5: VISAPP, Online Conference: SciTePress, Feb. 2021, pp. 809–816. doi: [10.5220/0010324808090816](https://doi.org/10.5220/0010324808090816).
 
 
 ## BibTex
 
 ```.bibtex
-@techreport{seuffert_omniglasses_2023,
-    type={preprint},
-    title={{OmniGlasses}: {An} {Optical} {Aid} for {Stereo} {Vision} {CNNs} to {Enable} {Omnidirectional} {Image} {Processing}},
-    shorttitle={{OmniGlasses}},
-    institution={In Review},
-    author={Seuffert, Julian Bruno and Perez Grassi, Ana Cecilia and Ahmed, Hamza and Seidel, Roman and Hirtz, Gangolf},
-    month=apr,
-    year={2023},
-    doi={10.21203/rs.3.rs-2776786/v1}
+@article{seuffert_omniglasses_2024,
+    title = {{OmniGlasses}: an optical aid for stereo vision {CNNs} to enable omnidirectional image processing},
+    volume = {35},
+    issn = {0932-8092, 1432-1769},
+    shorttitle = {{OmniGlasses}},
+    url = {https://link.springer.com/10.1007/s00138-024-01534-2},
+    doi = {10.1007/s00138-024-01534-2},
+    number = {3},
+    urldate = {2024-05-07},
+    journal = {Machine Vision and Applications},
+    author = {Seuffert, Julian B. and Perez Grassi, Ana C. and Ahmed, Hamza and Seidel, Roman and Hirtz, Gangolf},
+    month = apr,
+    year = {2024},
+    pages = {58--72}
 }
 
 @inproceedings{wang_anytime_2019,
